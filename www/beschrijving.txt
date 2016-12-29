@@ -1,0 +1,11 @@
+5 TABELLEN:
+GEBRUIKERS	: (id, gebruikersnaam, wachtwoord, admin
+GUESTS		: (id, familienaam, aantal, kamer.nummer, check-in, check-out, last-checkout...
+KAMER		: (id, nummer, vrij, personen, balkon, bad, airco, televisie, wifi, prijs
+CHECK-IN	: (id, datum, guests.familienaam, kamer.nummer, checkout.datum
+CHECK-OUT	: (id, datum, guests.familienaam, kamer.nummer, checkin.datum
+BOOKINGS	: (id, datum, guests.familienaam, guests.aantal, kamer.nummer,  
+
+
+
+

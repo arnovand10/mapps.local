@@ -1,0 +1,9 @@
+.message>.form-control{
+	color: #333333;
+	font-weight: 800;
+	background-color: #8FED8F;
+}
+
+.background-image-checkin{
+	background-image: url("img/pexels-checkin.jpeg");
+}

@@ -1,0 +1,70 @@
+.login>h1{
+	padding-top: 30vh;
+}
+
+.background-image-login{
+  background-image: url('img/pexels_Hotel.jpeg');
+}
+
+.background-image{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-size: cover;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.login{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.login-label{
+	text-align: left;
+}
+
+.checkbox>label{
+	font-weight: 700;
+}
+
+.login-error{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: rgba(255,180,180,0.8);
+    padding: 6px;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration:  1s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration:  1s;
+    animation: example 1s ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0% {
+      opacity:  0;
+    }
+    100% {
+      opacity:  1;
+    }
+}
+
+/* Standard syntax */
+@keyframes example {
+    0% {
+      opacity:  0;
+    }
+    100% {
+      opacity:  1;
+    }
+}

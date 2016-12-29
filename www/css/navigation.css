@@ -1,0 +1,43 @@
+nav{
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	align-content: center;
+}
+
+nav>ul{
+	margin: 0;
+	padding: 0;
+	height: 5vh;
+}
+
+nav>ul>li{
+	float: left;
+	list-style-type: none;
+	/*width = aantal li elementen/100 */
+	width: 12.5%;
+	text-align: center;
+	line-height: 5vh;
+	height: inherit;
+	border-bottom: solid 1px grey;
+	transition: all 0.15s ease-in;
+}
+
+nav>ul>li:hover{
+	border-bottom: 3px solid #337ab7;
+	line-height: 4.5vh;
+}
+
+nav>ul>li>a{
+	text-decoration: none;
+	display: block;
+	color: black;
+	text-transform: capitalize;
+}
+
+.active{
+	border-bottom: 3px solid #337ab7;
+}
+
+.nohover:hover{
+	border-bottom: 1px  solid grey;
+}

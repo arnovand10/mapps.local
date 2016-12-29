@@ -1,0 +1,48 @@
+.welcome{
+	z-index: 99999;
+	perspective: 1000px;
+	position: absolute;
+	opacity: 1;
+	width: 75%
+	-webkit-animation-name: slide; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration:  1s; /* Safari 4.0 - 8.0 */
+    animation-name: slide;
+    animation-duration:  1s;
+    animation: slide 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slide {
+     0% {
+		opacity:  0;
+		transform: rotateY(-90deg);
+    }
+    100% {
+     	opacity:  1;
+     	transform: rotateY(0deg);
+    }
+}
+
+/* Standard syntax */
+@keyframes slide {
+    0% {
+		opacity:  0;
+		transform: rotateY(-90deg);
+    }
+    100% {
+     	opacity:  1;
+     	transform: rotateY(0deg);
+    }
+}
+
+
+
+.welcome>h1{
+	padding-top: 40vh;
+}
+
+
+.background-image-index{
+	background-image: url("img/pexels-index.jpg");
+}
